@@ -1,0 +1,179 @@
+(footprint "SoM_SMD_ThreadedStandoff"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "959f1b73-bb4a-4b84-b4e1-c49e3cd1d0da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SoM_SMD_ThreadedStandoff"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "339d705c-5170-425e-baa9-ca82690c708b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a7d0e7c-d240-4689-9724-4e29b944b1b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9a790ee-69f7-4ea6-8b97-d33858ec10ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc59dfec-e89e-4c98-9960-cc2afe7eb9fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.575 0)
+		(end -1.975 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "54402716-e727-4920-b2bb-05d40d3bf5b9")
+	)
+	(fp_circle
+		(center -1.8208 -1.8208)
+		(end -1.2208 -1.8208)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "d7fe573b-6051-49bd-827e-1697326caf29")
+	)
+	(fp_circle
+		(center -1.8208 1.8208)
+		(end -1.2208 1.8208)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "0e852a04-9faf-4742-b483-a959894ccb32")
+	)
+	(fp_circle
+		(center 0 -2.575)
+		(end 0.6 -2.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "2bb6416e-015c-4973-8697-69294a4f888f")
+	)
+	(fp_circle
+		(center 0 2.575)
+		(end 0.6 2.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "72454e62-a651-4dfa-94d7-24eb6469bdd4")
+	)
+	(fp_circle
+		(center 1.8208 -1.8208)
+		(end 2.4208 -1.8208)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "6391d5ef-8e36-45c8-8c8c-5e2ac12dcca2")
+	)
+	(fp_circle
+		(center 1.8208 1.8208)
+		(end 2.4208 1.8208)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "a9ad19c6-a08c-49ef-ae32-51b7e849190d")
+	)
+	(fp_circle
+		(center 2.575 0)
+		(end 3.175 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "50087053-3e26-4b0b-ad41-d3e2ba479e39")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.5 6.5)
+		(drill 3.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4dbd4372-43f8-4d52-8026-e74ed464eda5")
+	)
+	(model "${KIPRJMOD}/3D/SMTSO-M2-3ET--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
