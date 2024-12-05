@@ -59,9 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|121400002|80647599|1a9a67e9-898a-4c8c-afae-303dd3cf99b8|cdd723a5-2cd2-482b-9c59-74bfbbc3052f"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -248,29 +246,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_not_driven|2463800|952500|bc16f7cc-0ab2-4f35-ae9a-8c906f29f93c|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
-      "pin_not_driven|2463800|977900|99be4b81-d09f-43be-b79a-2e4f87de3bcb|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
-      "power_pin_not_driven|1117600|1854200|e2e082e3-cae3-4028-8204-d778a6ab4c64|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
-      "power_pin_not_driven|2044700|381000|00c7e839-6ff8-4619-9eca-2463082cc16f|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
-      "power_pin_not_driven|292100|1054100|3ee986d6-9599-4112-8f99-0f34c26ccc51|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
-      "power_pin_not_driven|317500|266700|25f7f7e2-1fc6-41d8-a14b-2d2742e98c50|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
-      "simulation_model_issue|1016000|736600|5a03e969-7483-4b44-a181-8401253e46d7|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|1193800|1092200|738c0cad-0ee9-4223-bb70-67acc5b41c26|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|1193800|1587500|b1b527d4-2628-4523-b17b-1785e3c904d1|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|1257300|254000|2fe7aae3-9a2f-4b27-b961-1b46a9db8d17|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|1257300|368300|f3d3c3a1-1bf9-4c3e-831a-80b21867d418|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|1270000|736600|489feb57-ab7a-45f2-ad94-267f3bbb4522|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|2273300|762000|75d8deff-b232-4227-ae41-885f3b27e805|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|2705100|1181100|21cd4cbb-aec5-4835-8ae2-0bf6b0a68657|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|393700|393700|00000000-0000-0000-0000-000056d71773|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|393700|647700|00000000-0000-0000-0000-000056d72f1c|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|482600|1701800|b74c0ea9-566b-4b56-8f00-297aa058aa21|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|495300|1054100|add3500a-9bce-40b9-9391-c4b8ee9889f3|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|571500|368300|00000000-0000-0000-0000-000056d72368|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|571500|673100|00000000-0000-0000-0000-000056d734d0|00000000-0000-0000-0000-000000000000|||",
-      "simulation_model_issue|876300|1320800|13f6a38a-268a-442e-a804-3bc0ad7c93d3|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -595,7 +571,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -610,7 +586,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -631,10 +607,10 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
