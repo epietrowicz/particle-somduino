@@ -14,6 +14,8 @@ The SoMduino has the following features:
 - Qwiic connector for I2C expansion
 - Charging indicator LED
 - Arduino Uno form factor for Arduino shield compatibility
+  
+![particle-somduino-1](https://github.com/user-attachments/assets/905cba05-fcd3-4299-8dee-ec5a840c115c)
 
 ## BOM
 You can find a complete list of LCSC parts used in the example design below:
