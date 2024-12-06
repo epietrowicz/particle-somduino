@@ -1,5 +1,5 @@
-# SoMduino
-This is a sample design for a _mostly_ assembled PCB from a manufacturing service like JLCPCB, helping you get started with a custom SoM based design. The SoMduino is an Arduino Uno form factor breakout board intended to work with either BSoM or MSoM Particle products.
+# Somduino
+This is a sample design for a _mostly_ assembled PCB from a manufacturing service like JLCPCB, helping you get started with a custom SoM based design. The Somduino is an Arduino Uno form factor breakout board intended to work with either BSoM or MSoM Particle products.
 
 ![particle-somduino-final](https://github.com/user-attachments/assets/60043049-87e8-497d-ab6a-1753abb38832)
 
