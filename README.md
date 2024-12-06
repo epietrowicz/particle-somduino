@@ -1,5 +1,5 @@
 # SoMduino
-The SoMduino is an Arduino Uno form factor breakout board intended to work with either BSoM or MSoM Particle products. The intent is to have the carrier board mostly assembled by JLCPCB except for the Particle [power module](https://store.particle.io/products/particle-power-module-battery-with-headers) and [SoM](https://store.particle.io/products/m-series-lte-m1-2g-global-ethersim). It should contain all of the basic components necessary for the programming and using a Particle module.
+This is a sample design for a _mostly_ assembled PCB from a manufacturing service like JLCPCB, helping you get started with a custom SoM based design. The SoMduino is an Arduino Uno form factor breakout board intended to work with either BSoM or MSoM Particle products.
 
 ![particle-somduino-final](https://github.com/user-attachments/assets/60043049-87e8-497d-ab6a-1753abb38832)
 
