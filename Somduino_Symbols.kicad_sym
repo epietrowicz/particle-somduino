@@ -330,32 +330,6 @@
 				(hide yes)
 			)
 		)
-		(symbol "LED_RGB_0_0"
-			(text "B"
-				(at -1.905 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "G"
-				(at -1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "R"
-				(at -1.905 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
 		(symbol "LED_RGB_0_1"
 			(rectangle
 				(start -2.54 -8.89)
@@ -580,6 +554,32 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+		)
+		(symbol "LED_RGB_1_0"
+			(text "B"
+				(at -1.905 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "G"
+				(at -1.905 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "R"
+				(at -1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 		)

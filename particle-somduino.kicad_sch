@@ -2912,32 +2912,6 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_RGB_0_0"
-				(text "B"
-					(at -1.905 -6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "G"
-					(at -1.905 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "R"
-					(at -1.905 3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(symbol "LED_RGB_0_1"
 				(rectangle
 					(start -2.54 -8.89)
@@ -3162,6 +3136,32 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+			)
+			(symbol "LED_RGB_1_0"
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "R"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -6406,6 +6406,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 158.75) (xy 267.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2a7f43-9b03-4d85-bc8c-763763e25c0f")
+	)
+	(wire
+		(pts
 			(xy 68.58 120.65) (xy 68.58 123.19)
 		)
 		(stroke
@@ -6716,7 +6726,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 106.68) (xy 279.4 118.11)
+			(xy 281.94 142.24) (xy 281.94 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6916,7 +6926,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 118.11) (xy 275.59 118.11)
+			(xy 281.94 153.67) (xy 278.13 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7103,6 +7113,16 @@
 			(type default)
 		)
 		(uuid "89407acd-7be0-4ed9-bf1e-dbba636981fb")
+	)
+	(wire
+		(pts
+			(xy 265.43 148.59) (xy 267.97 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898f3e5c-1819-41b4-a00b-dcdadcf12741")
 	)
 	(wire
 		(pts
@@ -7686,6 +7706,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 153.67) (xy 267.97 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e5f46a-aaf6-4b89-b48e-b478d174c367")
+	)
+	(wire
+		(pts
 			(xy 132.08 109.22) (xy 132.08 111.76)
 		)
 		(stroke
@@ -8129,7 +8159,7 @@
 	)
 	(global_label "USB_D_P"
 		(shape input)
-		(at 138.43 157.48 0)
+		(at 138.43 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8139,7 +8169,7 @@
 		)
 		(uuid "09abbb93-1dc4-43f6-ac3d-6bdd08338241")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7955 157.48 0)
+			(at 149.7955 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8479,6 +8509,28 @@
 			)
 		)
 	)
+	(global_label "LED_B"
+		(shape input)
+		(at 265.43 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39f6e141-a415-4697-b353-5bba4fb06d84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.665 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A5"
 		(shape input)
 		(at 255.27 92.71 0)
@@ -8545,9 +8597,31 @@
 			)
 		)
 	)
+	(global_label "LED_R"
+		(shape input)
+		(at 265.43 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c3d0e9e-208a-4764-b35e-3a65071b2735")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.195 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D_N"
 		(shape input)
-		(at 138.43 162.56 0)
+		(at 138.43 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8557,7 +8631,7 @@
 		)
 		(uuid "3c4491ef-84f5-4d42-abfa-1a146a7e47db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.856 162.56 0)
+			(at 149.856 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,6 +8835,72 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_G"
+		(shape input)
+		(at 265.43 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e4f2eef-9036-4f20-952a-60143531a6a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.665 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_G"
+		(shape input)
+		(at 265.43 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60fc5189-4754-4f4d-8bf9-315a4687b089")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.195 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_R"
+		(shape input)
+		(at 265.43 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "658c27d3-c95f-4c9a-9a7f-479cf669d47b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.665 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9201,6 +9341,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_B"
+		(shape input)
+		(at 265.43 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5fce691-6602-49ba-b2b3-17064c9d8bb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.195 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10543,7 +10705,7 @@
 	)
 	(symbol
 		(lib_id "Somduino_Symbols:LED_RGB")
-		(at 270.51 118.11 0)
+		(at 273.05 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10552,7 +10714,7 @@
 		(fields_autoplaced yes)
 		(uuid "21cd4cbb-aec5-4835-8ae2-0bf6b0a68657")
 		(property "Reference" "D1"
-			(at 270.51 104.14 0)
+			(at 273.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +10722,7 @@
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 270.51 106.68 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10568,7 +10730,7 @@
 			)
 		)
 		(property "Footprint" "Somduino_Footprints:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
-			(at 270.51 105.41 0)
+			(at 273.05 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +10739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 129.54 0)
+			(at 273.05 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10586,7 +10748,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 118.11 0)
+			(at 273.05 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,7 +10757,7 @@
 			)
 		)
 		(property "LCSC" "C5342281"
-			(at 270.51 118.11 0)
+			(at 273.05 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +11506,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 279.4 106.68 0)
+		(at 281.94 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11352,7 +11514,7 @@
 		(dnp no)
 		(uuid "638141fc-956e-466f-ac28-291473a878e6")
 		(property "Reference" "#PWR017"
-			(at 279.4 110.49 0)
+			(at 281.94 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11361,7 +11523,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 279.4 101.6 90)
+			(at 281.94 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11369,7 +11531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 106.68 0)
+			(at 281.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11378,7 +11540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 106.68 0)
+			(at 281.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11387,7 +11549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 279.4 106.68 0)
+			(at 281.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
