@@ -39,3 +39,8 @@ You can find a complete list of LCSC parts used in the example design below:
 | SW1, SW2 | 2 | Push button switch | C318884 |
 | SW3 | 1 | Power switch | C963205 |
 | U1 | 1 | M.2 connector for SoM | C2977809 |
+
+The cost of the example design is $54.88 for 5 mostly assembled boards. All that remains is a Particle SoM and power module. It is worth noting that I did not choose to upgrade from the “economic assembly” for the threaded standoff and plan to hand assemble that component saving $25.
+
+![image](https://github.com/user-attachments/assets/59d48676-5a6b-45f8-9368-81f4191d1c4c)
+
